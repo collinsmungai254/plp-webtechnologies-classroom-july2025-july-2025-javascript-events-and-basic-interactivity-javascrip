@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive JavaScript Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JavaScript Interactivity</h1>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- 🎮 Counter Game -->
+    <section>
+      <h2>Counter Game</h2>
+      <button id="incrementBtn">Click Me!</button>
+      <p>Count: <span id="counter">0</span></p>
+    </section>
+
+    <!-- 📋✅ Form Validation -->
+    <section>
+      <h2>Sign Up Form</h2>
+      <form id="signupForm">
+        <label>Name: <input type="text" id="name" /></label>
+        <span class="error" id="nameError"></span><br />
+
+        <label>Email: <input type="text" id="email" /></label>
+        <span class="error" id="emailError"></span><br />
+
+        <label>Password: <input type="password" id="password" /></label>
+        <span class="error" id="passwordError"></span><br />
+
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
